@@ -1,0 +1,89 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: darkblue;
+    color: white;
+    
+
+}
+
+.border_form{
+
+    border: solid 4px white;
+    width: 80%;
+    margin-left: 10%;
+    min-height: 300px;
+    border-radius: 10px;
+}
+
+.container_form{
+    
+    align-items: center;
+    text-align: center;
+    width: 100%;
+	margin-top: 10%;
+}
+
+.itens_form{
+    background-color: white;
+   width: 80%;
+   margin-left: 10%;
+   height: 200px;
+   align-items: center;
+   border-radius: 10px;
+   margin-top: 5%;
+   
+}
+
+.input_number{
+    margin-top: 50px;
+    width: 80%;
+    height: 25px;
+    font-size: 20px;
+    
+
+}
+
+.input_number::placeholder{
+    color: lightgray;
+    font-size: 18px;
+
+}
+
+label{
+    color: black;
+}
+
+
+.btn_verificar{
+    color: white;
+    background-color: darkblue;
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn_verificar:hover{
+    background-color: green;
+}
+
+.cabecalho{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+}
+
+.lblMensagem{
+    color: darkblue;
+}
+
+.rodape{
+
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
